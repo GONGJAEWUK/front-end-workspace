@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>폼 태그</title>
+  </head>
+  <body>
+    <h2>폼 태그의 기본 구조</h2>
+    <!--상호작용이 가능한 태그-->
+
+    <h3>검색 폼</h3>
+    <form action="" method="get">
+      <label for="search">검색할 내용 : </label>
+      <input type="text" name="keyword" id="search" />
+      <input type="submit" value="검색" />
+    </form>
+    <!--form action은 백엔드 서버한테 보내는 액션 / ?가 나오는 이유는 key = value 값을 보내야 함
+        Get은 검색할때 주로 사용되고, 
+        Post는 보안문제에 대한 내용은 Post로 서버에 보냄
+    -->
+  </body>
+</html>
