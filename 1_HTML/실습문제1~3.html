@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>실습문제3</title>
+  </head>
+  <body>
+    <h1>주문하기</h1>
+    <form action="">
+      <p>
+        <label for="name">고객명</label>
+        <input type="text" name="name" id="name" />
+      </p>
+      <p>
+        <label for="tel">전화번호</label>
+        <input type="text" name="tel" id="tel" />
+      </p>
+      <label for="email">e-mail</label>
+      <input type="email" name="email" id="email" /><br /><br />
+      <fieldset>
+        <legend>피자 사이즈</legend>
+        <label for="small">
+          <input type="radio" name="size" value="small" id="small" />small
+        </label>
+        <br />
+        <label for="medium">
+          <input type="radio" name="size" value="medium" id="medium" />medium
+          <br
+        /></label>
+        <label for="large">
+          <input
+            type="radio"
+            name="size"
+            value="large"
+            id="large"
+          />large </label
+        ><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>토핑 선택</legend>
+        <label for="bacon">
+          <input type="checkbox" name="topping" id="bacon" /> 베이컨
+        </label>
+
+        <label for="cheese">
+          <input type="checkbox" name="topping" id="cheese" /> 치즈
+        </label>
+
+        <label for="onion">
+          <input type="checkbox" name="topping" id="onion" /> 양파
+        </label>
+
+        <label for="mushroom">
+          <input type="checkbox" name="topping" id="mushroom" /> 버섯
+        </label>
+      </fieldset>
+    </form>
+  </body>
+</html>
