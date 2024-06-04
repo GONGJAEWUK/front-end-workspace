@@ -123,7 +123,7 @@ rgba(red(0~255), green(0~255), blue(0~255), alpha(0~1));
 }
 ```
 
-## flex-direnction
+## flex-direction
 
 - 배치 방향 설정
 - 아이템들이 배치되는 메인축의 방향을 결정하는 속성

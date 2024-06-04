@@ -13,15 +13,15 @@
       <h1>LOGO</h1>
       <div class="head">
         <!--inline 속성-->
-        <a href="">Heading 1</a>
-        <a href="">Heading 2</a>
-        <a href="">Heading 3</a>
+        <a href="#page1">Heading 1</a>
+        <a href="#page2">Heading 2</a>
+        <a href="#page3">Heading 3</a>
       </div>
     </header>
 
     <!--section : 100vh, flex, column, center-->
     <section>
-      <div class="main1">
+      <div class="main1" id="page1">
         <h2>Heading 1</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem aut
@@ -31,7 +31,7 @@
         </p>
       </div>
 
-      <div class="main2">
+      <div class="main2" id="page2">
         <h2>Heading 2</h2>
         <p>
           Heading1 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -41,7 +41,7 @@
         </p>
       </div>
 
-      <div class="main3">
+      <div class="main3" id="page3">
         <h2>Heading 3</h2>
         <p>
           Heading1 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -50,7 +50,10 @@
           consequuntur vero, qui deleniti sint!
         </p>
       </div>
-      <div class="button">TOP</div>
+
+      <div id="active-text" class="button">TOP
+      </div>
+
     </section>
   </body>
 </html>
