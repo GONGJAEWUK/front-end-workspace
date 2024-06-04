@@ -1,0 +1,72 @@
+h1 {
+  font-size: large;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: large;
+  padding: 10px;
+}
+
+.head {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-self: flex-end;
+}
+a {
+  text-decoration: none;
+  line-height: 30px;
+  color: black;
+}
+h2 {
+  font-size: large;
+  font-weight: bold;
+  margin: 20px;
+}
+.main1 {
+  background-color: red;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  font-weight: 400;
+}
+
+.main2 {
+  background-color: purple;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  font-weight: 400;
+}
+.main3 {
+  background-color: yellow;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  font-weight: 400;
+}
+.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
