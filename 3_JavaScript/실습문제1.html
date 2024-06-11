@@ -32,9 +32,9 @@
            예) 제곱미터 : 99
     -->
     <script>
-      let 제곱미터 = 99;
-      let 평 = 제곱미터 * 0.3;
-      console.log(평);
+      let m2 = 99;
+      let mp = m2 * 0.3;
+      console.log(mp);
     </script>
 
     <!-- 
@@ -43,11 +43,11 @@
            예) 윗변 : 10, 밑변 : 14, 높이 : 4
      -->
     <script>
-      let 윗변 = 10;
-      let 밑변 = 14;
-      let 높이 = 4;
-      let 사다리꼴넓이 = ((윗변 + 밑변) / 2) * 높이;
-      console.log(사다리꼴넓이);
+      let upper = 10;
+      let lower = 14;
+      let height = 4;
+      let trape = ((upper + height) / 2) * height;
+      console.log(trape);
     </script>
 
     <!-- 
@@ -56,9 +56,9 @@
            - 예) 정기 예금액 : 12,000,000
     -->
     <script>
-      let 정기예금액 = 12000000;
-      let 월이자 = (정기예금액 * 0.04) / 12;
-      console.log(월이자);
+      let deposit = 12000000;
+      let monthly = (deposit * 0.04) / 12;
+      console.log(monthly);
     </script>
 
     <!-- 
@@ -66,8 +66,8 @@
      -->
     <script>
       let age = 55;
-      let 출생연도 = 2024 - age;
-      console.log(출생연도);
+      let birth = 2024 - age;
+      console.log(birth);
     </script>
 
     <!-- 
@@ -77,8 +77,8 @@
     <script>
       let 아메리카노 = 5500;
       let 가지고있는돈 = 15000;
-      let 잔수 = 가지고있는돈 / 아메리카노;
-      console.log(parseInt(잔수));
+      let 잔수 = parseInt(가지고있는돈 / 아메리카노);
+      console.log(잔수);
 
       let 구매한아메리카노 = parseInt(잔수) * 아메리카노;
       console.log(구매한아메리카노);
@@ -99,6 +99,13 @@
       console.log(총주문금액);
       let 주문금액 = 총주문금액 - 서비스 * 6;
       console.log(주문금액);
+
+      let lamb = 64;
+      let drink = 6;
+      const service = parseInt(lamb / 10);
+      console.log(service);
+      let total = lamb * 12000 + (drink - service) * 2000;
+      console.log(total);
     </script>
   </body>
 </html>
