@@ -1,0 +1,66 @@
+h1 {
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+}
+
+.section1 {
+  padding: 15px;
+  justify-content: center;
+  border-radius: 0px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px;
+}
+.section2 {
+  padding: 10px;
+  justify-content: center;
+}
+
+#click {
+  background-color: hotpink;
+  color: navy;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 15px;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+}
+#restart {
+  background-color: navy;
+  color: hotpink;
+  font-weight: bold;
+  font-size: 15px;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+
+span {
+  margin: 10px;
+}
